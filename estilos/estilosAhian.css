@@ -1,0 +1,236 @@
+/* HEADER */
+header {
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+}
+
+nav {
+    float: left;
+    background: rgba(0,0,0,0.9);
+    z-index: 100;
+    width: 100%;
+    justify-items: center;
+}
+  
+nav ul {
+    list-style: none;
+    overflow: hidden; 
+    justify-items: center;
+}
+  
+nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    justify-items: center;
+}
+  
+nav ul li a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    justify-items: center;
+}
+  
+nav ul li:hover {
+    background: #3ead47;
+    justify-items: center;
+    transition: ease-in .4s;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+  
+p {
+    margin-bottom: 20px;
+}
+body{
+    background-color: rgba(164, 226, 228, 0.993);
+}
+.ayuntaIMG {
+    display: flex;
+    width: 100%;
+}
+
+.ayuntaIMG img {
+    width: 100%;
+    height: 300px;
+}
+
+.ayuntamiento {
+    background: #fff;
+    color: #3ead47;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: Arial, sans-serif;
+    align-self: center;
+}
+
+.ayuntamiento img {
+    padding: 20px;
+    width: 75px;
+
+}
+
+/* CONTACTO */
+.contacto {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+}
+.contacto h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    padding: 20px;
+}
+.contacto h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    padding: 20px;
+}
+.contacto hr {
+    border: 0;
+    height: 0;
+    box-shadow: 0 1px 5px 1px black;
+    width: 75%;
+    align-self: center  ;
+}
+
+.contactoAB {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height : 25px;
+  }
+  
+  .contactoIZ, .contactoDER {
+    width: 48%; 
+  }
+  
+  .contactoIZ {
+    padding: 30px;
+    margin-left: 3%;
+    line-height : 35px;
+    
+    
+  }
+  
+  .contactoDER {
+    padding: 30px;
+  }
+
+/* MAPA */
+
+  .mapa {
+    padding: 20px;
+  }
+
+  .mapa h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+  }
+
+  .mapa iframe {
+    border: none;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 1rem;
+}
+
+/* FORMULARIO DE CONTACTO */
+
+.formulario {
+    padding: 20px;
+    margin-bottom: 5%;
+}
+
+.formulario form {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.formulario form label {
+    display: block;
+    margin-top: 1rem;
+}
+
+.formulario form input, form textarea, form button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.formulario form button {
+    background-color: #3ead47;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.formulario form button:hover {
+    background-color: #3ead47;
+}
+
+.formulario h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+  
+/* CALENDARIO */
+
+.fotoagenda img {
+    width: 100%;
+    height: 350px;
+}
+
+.calendario {
+    display: flex;
+    width: 90%;
+    padding: 20px;
+}
+
+.calendario iframe {
+    width: 380px;
+    height: 380px;
+} 
+
+.textocalendario {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    margin-bottom: 5%;
+}
+
+.financiacion {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+}
