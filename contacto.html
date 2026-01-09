@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto Santa Perpètua</title>
+  <link rel="stylesheet" href="estilos/estilos.css">
+  <link rel="icon" type="image/x-icon" href="./img/favicon/logospm.png">
+
+</head>
+
+<!-- PÁGINA PRINCIPAL -->
+
+    <!-- ENCABEZADO DE LA PÁGINA -->
+    <header>
+        <!-- ENCABEZADO AYUNTAMIENTO -->
+        <div class="encabezadomainpage">
+            <img src="img/ayuntamiento.png" alt="Logo del Ayuntamiento de Santa Perpètua de Mogoda">
+            <div class="letraencabezado"><p>Ayuntamiento de <b>Santa Perpètua de Mogoda</b></p></div>
+        </div>
+        <!-- FIN ENCABEZADO AYUNTAMIENTO -->
+
+        <!-- NAVEGADOR DE LA PÁGINA -->
+        <nav class="navegador">
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+                <li><a href="galeriaImagenes.html">GALERÍA DE IMÁGENES</a></li>
+                <li><a href="medidasMedioambientales.html">MEDIDAS MEDIOAMBIENTALES</a></li>
+                <li><a href="consejos.html">CONSEJOS PARA EMPRESAS Y HABITANTES</a></li>
+                  <li><a href="agenda.html">INFORMACIÓN DE LA UE Y AGENDA 2030</a></li>
+            </ul>
+        </nav>
+        <!-- FIN NAVEGADOR DE LA PÁGINA -->
+    </header>
+    <!-- FIN ENCABEZADO DE LA PÁGINA -->
+	 
+<body>
+	<div class="ayuntaIMG">
+		<img src="img/imgAyunta.png" width="100%" height="10%" alt="Imagen del Ayuntamiento de Santa Perpètua de Mogoda">
+	</div>
+	<div class="contacto">
+		<h1>Ayuntamiento y <a href="#formulario">Formulario</a></h1>
+		<hr>
+		<h2>Datos de contacto de Santa Perpètua de Mogoda</h2>
+	</div>
+	<div class="contactoAB">
+		<div class="contactoIZ">
+			<ol>
+				<li><b>Correo:</b><a href="mailto:oac@staperpetua.cat"> oac@staperpetua.cat</a></li>
+				<li><b>Numero de telefono:</b> 935 743 234</li>
+				<li><b>Dirección: </b>Plaça de la Vila, 5, 08130 Santa Perpètua de Mogoda, Barcelona</li>
+			</ol>
+			
+		</div>
+		<div class="contactoDER">
+			<p>
+				<b>Información: </b>El horario de atención al público de la Oficina de Atención a la Ciudadanía (OAC) del Ayuntamiento de Santa Perpètua de Mogoda
+				 es de lunes a viernes de 9:00 a 14:00 horas. La atención telefónica se realiza en el mismo horario al 93 574 32 34. Aunque para recibir atención 
+				 presencial no es obligatorio disponer de cita previa, se recomienda solicitarla para determinados trámites. Se puede solicitar cita previa a través 
+				 de este enlace, o llamando al teléfono de la OAC antes mencionado. Las consultas generales también se pueden dirigir por correo electrónico a 
+				 oac@staperpetua.cat.
+			</p>
+		</div>
+	</div>
+	<div class="mapa">
+		<h2>Ubicación</h2>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10045.979854987045!2d2.181962536294635!3d41.532705424868944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4be57067bb0f3%3A0x4dac9b5228ccc0b2!2s08130%20Santa%20Perp%C3%A8tua%20de%20Mogoda%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1767599386420!5m2!1ses!2ses" 
+			allowfullscreen="" 
+			loading="lazy">
+		</iframe>
+	
+	</div>
+	<div class="formulario" id="formulario">
+		<h2>Formulario de contacto</h2>
+		<form action="/enviar-formulario" method="post" enctype="multipart/form-data">
+			<label for="nombre">Nombre:</label>
+			<input type="text" id="nombre" name="nombre" required>
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="descripcion">Descripción de la actividad:</label>
+			<textarea id="descripcion" name="descripcion" rows="5" required></textarea>
+
+			<label for="archivo">Subir archivo o imagen:</label>
+			<input type="file" id="archivo" name="archivo" accept="image/*">
+
+			<button type="submit">Enviar formulario de contacto</button>
+		</form>
+	</div>
+</body>
+<footer>
+        <p>&copy; 2026 Ayuntamiento de Santa Perpetua de Mogoda. Todos los derechos reservados.</p>
+</footer>
+</html>
